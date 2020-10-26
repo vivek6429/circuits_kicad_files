@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:1N4007 D?
+U 1 1 5F958FFA
+P 2150 1650
+F 0 "D?" V 2104 1730 50  0000 L CNN
+F 1 "1N4007" V 2195 1730 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2150 1475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D?
+U 1 1 5F9599DB
+P 2150 2000
+F 0 "D?" V 2104 2080 50  0000 L CNN
+F 1 "1N4007" V 2195 2080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2150 1825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2150 2000 50  0001 C CNN
+	1    2150 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D?
+U 1 1 5F956751
+P 1700 1650
+F 0 "D?" H 1700 1867 50  0000 C CNN
+F 1 "1N4007" H 1700 1776 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1700 1475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1700 1650 50  0001 C CNN
+	1    1700 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1500 2150 1500
+$Comp
+L Diode:1N4007 D?
+U 1 1 5F956C12
+P 1700 2000
+F 0 "D?" V 1654 2080 50  0000 L CNN
+F 1 "1N4007" V 1745 2080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1700 1825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1700 2000 50  0001 C CNN
+	1    1700 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1800 1700 1850
+Wire Wire Line
+	2150 1800 2150 1850
+Wire Wire Line
+	1700 2150 2150 2150
+$EndSCHEMATC
